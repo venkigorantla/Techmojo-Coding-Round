@@ -1,0 +1,35 @@
+Build:
+	mvn clean install
+	
+Usage:
+
+1. Goto to target folder
+
+2. Run below command
+
+	java -jar TweetHashTag-0.0.1-SNAPSHOT-jar-with-dependencies.jar
+	
+						OR
+
+	java -jar TweetHashTag-0.0.1-SNAPSHOT-jar-with-dependencies.jar <1/2/3/validNumber> <TOPK>
+	
+	
+Note: Command line arguments options is provied. 
+First argument represent number. For example if number is 4, it returns TOP5 records.
+Second Argument is operation like TOPK. It return TOPK items.
+
+If no arguments provided, number is default to 10, Operation defaults to "TOPK"
+
+
+	
+3. program asks NoOfTweets and Tweets String as input.f 
+
+Enter NoOfTweets : 
+
+Enter Tweets :
+
+4. It display TOPK Tweets.
+
+
+	
+	
